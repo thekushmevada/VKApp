@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">VK App</string>
+    <string name="title_activity_dashboard2">Dashboard2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="set_the_date">Set The Date</string>
+    <string name="title_activity_chat_prn">ChatPrnActivity</string>
+    <string name="tab_text_1">Working</string>
+    <string name="tab_text_2">Pending</string>
+    <string name="tab_text_3">Done</string>
+    <string name="tab_text_4">All Task</string>
+    <string name="tab_text_5">Given by me</string>
+
+    <string name="name">Name</string>
+    <string name="username">User name</string>
+    <string name="password">Password</string>
+</resources>

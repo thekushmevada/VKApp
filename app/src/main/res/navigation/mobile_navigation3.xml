@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation3"
+    app:startDestination="@+id/department_view">
+
+    <fragment
+        android:id="@+id/department_view"
+        android:name="com.example.vkapp.ui.Department.Department"
+        android:label="Department"
+        tools:layout="@layout/fragment_department" />
+
+    <fragment
+        android:id="@+id/employee_view"
+        android:name="com.example.vkapp.ui.EmployeeView.EmployeeView"
+        android:label="Employee View"
+        tools:layout="@layout/fragment_employee_view" />
+
+    <fragment
+        android:id="@+id/task_approval"
+        android:name="com.example.vkapp.ui.TaskApprove.TaskApprove"
+        android:label="Task Approve"
+        tools:layout="@layout/fragment_task_approve" />
+
+    <fragment
+        android:id="@+id/requistion_approval"
+        android:name="com.example.vkapp.ui.RequititionApprove.RequititionApprove"
+        android:label="Requitition Approve"
+        tools:layout="@layout/fragment_requitition_approve" />
+
+    <fragment
+        android:id="@+id/notification_navbar"
+        android:name="com.example.vkapp.ui.Notification.Notification"
+        android:label="Notification"
+        tools:layout="@layout/fragment_notification" />
+
+    <fragment
+        android:id="@+id/calender_navbar"
+        android:name="com.example.vkapp.ui.Calender.Calender"
+        android:label="Calender"
+        tools:layout="@layout/fragment_calender" />
+
+    <fragment
+        android:id="@+id/profile_nav"
+        android:name="com.example.vkapp.ui.Profile.ProfileView"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile_view" />
+
+    <fragment
+        android:id="@+id/logout_navbar"
+        android:name="com.example.vkapp.ui.LogOut.LogOut"
+        android:label="LogOut"
+        tools:layout="@layout/fragment_log_out" />
+</navigation>
