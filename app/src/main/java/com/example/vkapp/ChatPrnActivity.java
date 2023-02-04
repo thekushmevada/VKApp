@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.vkapp.ui.main.SectionsPagerAdapter;
 import com.example.vkapp.databinding.ChatPrnActivityBinding;
@@ -25,7 +26,7 @@ public class ChatPrnActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Intent chatprn = getIntent();
-
+        Toast.makeText(this, "befuibi", Toast.LENGTH_SHORT).show();
         binding = ChatPrnActivityBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
